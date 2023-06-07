@@ -10,8 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header name={blogData.name} />
-      <About about={blogData.about} />
+      {/* <About about={blogData.about} />
+      <ArticleList posts={blogData.posts} /> */}
+      <About image={blogData.image} about={blogData.about} />
       <ArticleList posts={blogData.posts} />
+      
     </div>
   );
 }

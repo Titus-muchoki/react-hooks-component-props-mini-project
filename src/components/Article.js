@@ -27,4 +27,5 @@ function makeEmojiList(minutes) {
       </article>
     );
   }
+  export default Article;
   
